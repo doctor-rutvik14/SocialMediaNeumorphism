@@ -1,0 +1,223 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: #d6d6d6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 25vh;
+    width: 800px;
+    border-radius: 40px;
+    background: #d6d6d6;
+    box-shadow: -6px -6px 20px 0 rgba(255, 255, 255, 0.6),
+        6px 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container .sym a {
+    height: 100px;
+    width: 100px;
+    box-shadow: -6px -6px 20px 0 rgba(255, 255, 255, 0.6),
+        6px 6px 20px 0 rgba(0, 0, 0, 0.2);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.container .sym a:hover {
+    box-shadow: inset -6px -6px 20px 0 rgba(255, 255, 255, 0.6),
+        inset 6px 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.fa-github {
+    color: #333;
+}
+
+.fa-linkedin-in {
+    color: #0077b5;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+.fa-instagram {
+    color: #cd486b;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 30vh;
+        width: 800px;
+        border-radius: 40px;
+        background: #d6d6d6;
+        box-shadow: -6px -6px 20px 0 rgba(255, 255, 255, 0.6),
+            6px 6px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .container .sym a {
+        height: 100px;
+        width: 100px;
+        box-shadow: -6px -6px 20px 0 rgba(255, 255, 255, 0.6),
+            6px 6px 20px 0 rgba(0, 0, 0, 0.2);
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 45px;
+        border-radius: 50%;
+        text-decoration: none;
+        margin: 30px;
+        cursor: pointer;
+    }
+    
+    .container .sym a:hover {
+        box-shadow: inset -6px -6px 20px 0 rgba(255, 255, 255, 0.6),
+            inset 6px 6px 20px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .fa-github {
+        color: #333;
+    }
+    
+    .fa-linkedin-in {
+        color: #0077b5;
+    }
+    
+    .fa-twitter {
+        color: #1da1f2;
+    }
+    
+    .fa-instagram {
+        color: #cd486b;
+    }
+  }
+  /* Medium devices (landscape tablets, 850px and down) */
+@media only screen and (max-width: 850px) {
+    .container {
+        height: 30vh;
+        width: 655px;
+    }   
+    .container .sym a {
+        height: 90px;
+        width: 90px;
+    }
+}
+@media only screen and (max-width: 722px) {
+    .container {
+        height: 40vh;
+        width: 550px;
+    }  
+    .container .sym a {
+        margin-left: 110px;
+    }
+}
+@media only screen and (max-width: 609px) and (min-width: 479px) {
+    .container {
+        height: 45vh;
+        width: 400px;
+    }  
+    .container .sym a {
+        margin-left: 62px;
+    }
+    
+}
+@media only screen and (max-width: 480px) {
+    .container {
+        height: 43vh;
+        width: 299px;
+    }  
+    .container .sym a {
+        margin-left: 27.5px;
+    }
+    
+}
+@media only screen and (max-height: 639px){
+    .container {
+        height: 54vh;
+        width: 499px;
+    }  
+    .container .sym a {
+        height: 70px;
+        width: 70px;
+        margin-left: 10px;
+    }
+}
+@media only screen and (height:480px) and (width:320px){
+    .container {
+        height: 50vh;
+        width: 290px;
+    }  
+    .container .sym a {
+        height: 70px;
+        width: 70px;
+        margin-left: 43px;
+    }
+} 
+@media only screen and (height:320px) and (width:480px){
+    .container {
+        height: 50vh;
+        width: 390px;
+    }  
+    .container .sym a {
+        height: 50px;
+        width: 50px;
+        margin-left: 6px;
+        font-size: 25px;
+    }
+} 
+@media only screen and (width:240px) and (height:320px){
+    .container {
+        height: 58vh;
+        width: 210px;
+    }  
+    .container .sym a {
+        height: 45px;
+        width: 45px;
+        margin-left: 28px;
+        font-size: 25px;
+    }
+} 
+@media only screen and (width:320px) and (height:240px){
+    .container {
+        height: 70vh;
+        width: 210px;
+    }  
+    .container .sym a {
+        height: 45px;
+        width: 45px;
+        margin-left: 28px;
+        font-size: 25px;
+    }
+}
+@media only screen and (width:320px) and (height:568px){
+    .container {
+        height: 47vh;
+        width: 250px;
+    }  
+    .container .sym a {
+        height: 68px;
+        width: 68px;
+        margin-left: 25px;
+        font-size: 40px;
+    }
+}
